@@ -30,3 +30,13 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+
+number1 = int(input("enter a number: "))
+number2 = int(input("enter a second number: "))
+number3 = int(input("enter a third number: "))
+if number1 >= number2 and number1 >= number3:
+    print(f"{number1}\n{number2}\n{number3}")
+elif number1 <= number2 and number1 >= number3:
+    print(f"{number2}\n{number1}\n{number3}"
+elif
+    print()
